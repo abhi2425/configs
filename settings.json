@@ -161,6 +161,8 @@
     "oldfirstname",
     "olditemname",
     "oldpassword",
+    "Omni",
+    "Omnichannel",
     "onresult",
     "orangered",
     "originalname",
@@ -178,6 +180,7 @@
     "signup",
     "signupform",
     "socketio",
+    "streamflow",
     "streamifier",
     "tailwindcss",
     "totalexpense",
@@ -391,6 +394,10 @@
     "HTML (Eex)",
     "plist"
   ],
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true
+  },
   "files.autoSave": "onWindowChange",
   "remoteHub.uncommittedChangesOnEntry": "none",
   "sync.autoDownload": true,
@@ -419,9 +426,16 @@
   "typescript.format.semicolons": "insert",
   "javascript.format.semicolons": "insert",
   "extensions.autoUpdate": false,
-  "workbench.colorTheme": "Ocean High Contrast",
   "[dockercompose]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "prettier.enable": false
+  "prettier.enable": false,
+  "diffEditor.maxComputationTime": 0,
+  "git.confirmSync": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.mouseWheelScrollSensitivity": 4,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "zenMode.fullScreen": false,
+  "workbench.colorTheme": "Ocean High Contrast",
+  "editor.fastScrollSensitivity": 2
 }
