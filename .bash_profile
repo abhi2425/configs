@@ -9,6 +9,7 @@ alias mongod='mongod --dbpath=./data/db'
 
 # Git aliases
 alias g='git'
+alias gb='git branch'
 alias gs='git status'
 alias gl='git log --oneline'
 alias gck='git checkout'
