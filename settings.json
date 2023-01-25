@@ -79,11 +79,11 @@
   },
   "materialTheme.accent": "Acid Lime",
   "workbench.iconTheme": "vscode-icons",
-  "java.jdt.ls.java.home": "/usr/lib/jvm/jdk-17.0.3+7",
+  "java.jdt.ls.java.home": "c:\\Apps\\Java\\jdk-15.0.1",
   "[scss]": {
     "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.defaultProfile.windows": "kali-linux (WSL)",
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontSize": 16,
 
@@ -95,108 +95,13 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "editor.linkedEditing": true,
   "java.semanticHighlighting.enabled": true,
   "[java]": {},
   "vsicons.dontShowNewVersionMessage": true,
-  "cSpell.userWords": [
-    "abhiinvirtuallife",
-    "ABHINAV",
-    "animatebottom",
-    "autoimport",
-    "autoreload",
-    "beforeend",
-    "browserslist",
-    "Capa",
-    "chatapp",
-    "chatbots",
-    "cloudinary",
-    "confirmpassword",
-    "darkskyapp",
-    "dateofentry",
-    "DOWNVOTED",
-    "Downvotes",
-    "dropzone",
-    "expensehandler",
-    "expensemanager",
-    "fetchuser",
-    "fieldname",
-    "Fira",
-    "firstname",
-    "fname",
-    "gsap",
-    "heroicons",
-    "hubspot",
-    "itemname",
-    "itemprice",
-    "kadane's",
-    "keygrip",
-    "Kmph",
-    "lastname",
-    "localtime",
-    "maithli",
-    "mapbox",
-    "mapflag",
-    "mapid",
-    "maruti",
-    "Matcap",
-    "Meslo",
-    "middlewares",
-    "minlength",
-    "minmax",
-    "mixins",
-    "mongodb",
-    "moveright",
-    "mymap",
-    "newfirstname",
-    "newitemname",
-    "newlastname",
-    "newpassword",
-    "newprice",
-    "Nexter",
-    "noreferrer",
-    "numbertext",
-    "oldfirstname",
-    "olditemname",
-    "oldpassword",
-    "Omni",
-    "Omnichannel",
-    "onresult",
-    "orangered",
-    "originalname",
-    "Pincode",
-    "preconnect",
-    "progressbar",
-    "protonmail",
-    "Redmi",
-    "rightarrow",
-    "rightarrowtail",
-    "robo",
-    "Rupdate",
-    "scrollbar",
-    "serviceworker",
-    "signup",
-    "signupform",
-    "socketio",
-    "streamflow",
-    "streamifier",
-    "tailwindcss",
-    "totalexpense",
-    "unfollow",
-    "unfollowed",
-    "unoptimized",
-    "UPVOTED",
-    "Upvotes",
-    "userid",
-    "uuidv",
-    "viktor",
-    "vite",
-    "vsintellicode",
-    "weatherapp",
-    "wireframe"
-  ],
+  "cSpell.userWords": [],
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 100,
   "editor.columnSelection": false,
@@ -207,147 +112,147 @@
     "*.cpp": "c++",
     "*.rs": "rust",
     "*.py": "python",
-    "*.java": "java"
+    "*.java": "java",
+    "Dockerfile": "dockerfile"
   },
   "editor.cursorBlinking": "smooth",
   "workbench.activityBar.iconClickBehavior": "focus",
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
-  "editor.fontFamily": "Fira Code, Fira Code iScript, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Consolas, 'Fira Code iScript', 'MesloLGS NF', Fira Code, 'Courier New'  ",
   "editor.fontWeight": "100",
   "editor.letterSpacing": 1.2,
   "editor.fontLigatures": true,
   "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "comment",
-          "entity.name.type.class", //class names
-
-          "keyword", //import, export, return…
-          "constant", //String, Number, Boolean…, this, super
-          "storage.modifier", //static keyword
-          "storage.type.class.js", //class keyword
-          "entity.name.method.js",
-          "entity.name.class.js",
-          "entity.name.tag.doctype",
-          "entity.other.attribute-name",
-          "entity.other.attribute-name.tag.jade",
-          "entity.other.attribute-name.tag.pug"
-        ],
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": [
-          //following will be excluded from italics (VSCode has some defaults for italics)
-          "invalid",
-          "keyword.operator",
-          "constant.numeric.css",
-          "keyword.other.unit.px.css",
-          "constant.numeric.decimal.js",
-          "constant.numeric.json"
-        ],
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": [
-          //following will be in italic
-          "comment",
-          "emphasis",
-          "entity.name.method.js",
-          "entity.name.class.js",
-          "entity.name.tag.doctype",
-          "entity.other.attribute-name",
-          "entity.other.attribute-name.tag.jade",
-          "entity.other.attribute-name.tag.pug",
-          "keyword",
-          "keyword.control",
-          "keyword.operator.comparison",
-          "keyword.control.flow.js",
-          "keyword.control.flow.ts",
-          "keyword.control.flow.tsx",
-          "keyword.control.ruby",
-          "keyword.control.module.ruby",
-          "keyword.control.class.ruby",
-          "keyword.control.def.ruby",
-          "keyword.control.loop.js",
-          "keyword.control.loop.ts",
-          "keyword.control.import.js",
-          "keyword.control.import.ts",
-          "keyword.control.import.tsx",
-          "keyword.control.from.js",
-          "keyword.control.from.ts",
-          "keyword.control.from.tsx",
-          "keyword.operator.expression.delete",
-          "keyword.operator.new",
-          "keyword.operator.expression",
-          "keyword.operator.cast",
-          "keyword.operator.relational",
-          "keyword.operator.sizeof",
-          "keyword.operator.logical.python",
-          "italic",
-          "markup.italic",
-          "markup.quote",
-          "markup.changed",
-          "markup.italic.markdown",
-          "markup.quote.markdown",
-          "markup.deleted.diff",
-          "markup.inserted.diff",
-          "meta.delimiter.period",
-          "meta.diff.header.git",
-          "meta.diff.header.from-file",
-          "meta.diff.header.to-file",
-          "meta.tag.sgml.doctype",
-          "meta.var.expr",
-          "meta.class meta.method.declaration meta.var.expr storage.type.js",
-          "meta.decorator punctuation.decorator",
-          "meta.selector",
-          "punctuation.accessor",
-          "punctuation.definition.comment",
-          "punctuation.definition.template-expression.begin",
-          "punctuation.definition.template-expression.end",
-          "punctuation.section.embedded",
-          "quote",
-          "source.js constant.other.object.key.js string.unquoted.label.js",
-          "source.go keyword.package.go",
-          "source.go keyword.import.go",
-          "source.go keyword.function.go",
-          "source.go keyword.type.go",
-          "source.go keyword.struct.go",
-          "source.go keyword.interface.go",
-          "source.go keyword.const.go",
-          "source.go keyword.var.go",
-          "source.go keyword.map.go",
-          "source.go keyword.channel.go",
-          "source.go keyword.control.go",
-          "storage",
-          "storage.type",
-          "storage.modifier",
-          "storage.type.property.js",
-          "storage.type.property.ts",
-          "storage.type.property.tsx",
-          "tag.decorator.js entity.name.tag.js",
-          "tag.decorator.js",
-          "text.html.basic entity.other.attribute-name.html",
-          "text.html.basic entity.other.attribute-name",
-          "variable.language",
-          "variable.other.object.property"
-        ],
-        "settings": {
-          "fontStyle": "italic"
-        }
-      }
-    ]
+    // "textMateRules": [
+    //   {
+    //     "scope": [
+    //       "comment",
+    //       "entity.name.type.class", //class names
+    //       "keyword", //import, export, return…
+    //       "constant", //String, Number, Boolean…, this, super
+    //       "storage.modifier", //static keyword
+    //       "storage.type.class.js", //class keyword
+    //       "entity.name.method.js",
+    //       "entity.name.class.js",
+    //       "entity.name.tag.doctype",
+    //       "entity.other.attribute-name",
+    //       "entity.other.attribute-name.tag.jade",
+    //       "entity.other.attribute-name.tag.pug",
+    //     ],
+    //     "settings": {
+    //       "fontStyle": "italic"
+    //     }
+    //   },
+    //   {
+    //     "scope": [
+    //       //following will be excluded from italics (VSCode has some defaults for italics)
+    //       "invalid",
+    //       "keyword.operator",
+    //       "constant.numeric.css",
+    //       "keyword.other.unit.px.css",
+    //       "constant.numeric.decimal.js",
+    //       "constant.numeric.json"
+    //     ],
+    //     "settings": {
+    //       "fontStyle": "italic"
+    //     }
+    //   },
+    //   {
+    //     "scope": [
+    //       //following will be in italic
+    //       "comment",
+    //       "emphasis",
+    //       "entity.name.method.js",
+    //       "entity.name.class.js",
+    //       "entity.name.tag.doctype",
+    //       "entity.other.attribute-name",
+    //       "entity.other.attribute-name.tag.jade",
+    //       "entity.other.attribute-name.tag.pug",
+    //       "keyword",
+    //       "keyword.control",
+    //       "keyword.operator.comparison",
+    //       "keyword.control.flow.js",
+    //       "keyword.control.flow.ts",
+    //       "keyword.control.flow.tsx",
+    //       "keyword.control.ruby",
+    //       "keyword.control.module.ruby",
+    //       "keyword.control.class.ruby",
+    //       "keyword.control.def.ruby",
+    //       "keyword.control.loop.js",
+    //       "keyword.control.loop.ts",
+    //       "keyword.control.import.js",
+    //       "keyword.control.import.ts",
+    //       "keyword.control.import.tsx",
+    //       "keyword.control.from.js",
+    //       "keyword.control.from.ts",
+    //       "keyword.control.from.tsx",
+    //       "keyword.operator.expression.delete",
+    //       "keyword.operator.new",
+    //       "keyword.operator.expression",
+    //       "keyword.operator.cast",
+    //       "keyword.operator.relational",
+    //       "keyword.operator.sizeof",
+    //       "keyword.operator.logical.python",
+    //       "italic",
+    //       "markup.italic",
+    //       "markup.quote",
+    //       "markup.changed",
+    //       "markup.italic.markdown",
+    //       "markup.quote.markdown",
+    //       "markup.deleted.diff",
+    //       "markup.inserted.diff",
+    //       "meta.delimiter.period",
+    //       "meta.diff.header.git",
+    //       "meta.diff.header.from-file",
+    //       "meta.diff.header.to-file",
+    //       "meta.tag.sgml.doctype",
+    //       "meta.var.expr",
+    //       "meta.class meta.method.declaration meta.var.expr storage.type.js",
+    //       "meta.decorator punctuation.decorator",
+    //       "meta.selector",
+    //       "punctuation.accessor",
+    //       "punctuation.definition.comment",
+    //       "punctuation.definition.template-expression.begin",
+    //       "punctuation.definition.template-expression.end",
+    //       "punctuation.section.embedded",
+    //       "quote",
+    //       "source.js constant.other.object.key.js string.unquoted.label.js",
+    //       "source.go keyword.package.go",
+    //       "source.go keyword.import.go",
+    //       "source.go keyword.function.go",
+    //       "source.go keyword.type.go",
+    //       "source.go keyword.struct.go",
+    //       "source.go keyword.interface.go",
+    //       "source.go keyword.const.go",
+    //       "source.go keyword.var.go",
+    //       "source.go keyword.map.go",
+    //       "source.go keyword.channel.go",
+    //       "source.go keyword.control.go",
+    //       "storage",
+    //       "storage.type",
+    //       "storage.modifier",
+    //       "storage.type.property.js",
+    //       "storage.type.property.ts",
+    //       "storage.type.property.tsx",
+    //       "tag.decorator.js entity.name.tag.js",
+    //       "tag.decorator.js",
+    //       "text.html.basic entity.other.attribute-name.html",
+    //       "text.html.basic entity.other.attribute-name",
+    //       "variable.language",
+    //       "variable.other.object.property"
+    //     ],
+    //     "settings": {
+    //       "fontStyle": "italic"
+    //     }
+    //   }
+    // ]
   },
   "code-runner.runInTerminal": true,
   "notebook.kernelProviderAssociations": [],
   "code-runner.saveFileBeforeRun": true,
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "terminal.integrated.sendKeybindingsToShell": true,
   "emmet.includeLanguages": {
@@ -369,8 +274,8 @@
     "terminal.integrated.copyOnSelection",
     "terminal.integrated.confirmOnExit"
   ],
-  "terminal.integrated.confirmOnExit": "always",
   "prettier.bracketSameLine": true,
+  "terminal.integrated.confirmOnExit": "always",
   "prettier.printWidth": 250,
   "tabnine.experimentalAutoImports": true,
   "auto-close-tag.activationOnLanguage": [
@@ -413,7 +318,8 @@
   "rust-analyzer.cargo.features": "all",
   "workbench.preferredHighContrastColorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "Visual Studio Dark",
-  "editor.fontSize": 15.5,
+  "window.zoomLevel": -1,
+  "editor.fontSize": 17.5,
   "editor.tabSize": 2,
   "cSpell.languageSettings": [],
   "[rust]": {
@@ -425,7 +331,6 @@
   "thunder-client.htmlView": "Raw Html",
   "typescript.format.semicolons": "insert",
   "javascript.format.semicolons": "insert",
-  "extensions.autoUpdate": false,
   "[dockercompose]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
@@ -436,6 +341,32 @@
   "editor.mouseWheelScrollSensitivity": 4,
   "githubPullRequests.createOnPublishBranch": "never",
   "zenMode.fullScreen": false,
+  "editor.fastScrollSensitivity": 2,
+  "git.ignoreRebaseWarning": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "kali-linux (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "kali-linux"
+      ]
+    }
+  },
   "workbench.colorTheme": "Ocean High Contrast",
-  "editor.fastScrollSensitivity": 2
+  "workbench.activityBar.visible": false
 }
