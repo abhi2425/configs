@@ -5,7 +5,7 @@ alias lll='ls -ltr'
 alias lsa='ls -la'
 
 #MongoDB
-alias mongod='mongod --dbpath=./data/db'
+alias mongod='mongod --dbpath=~/data/db'
 
 # Gnome Terminal
 alias gt='dbus-launch gnome-terminal'
