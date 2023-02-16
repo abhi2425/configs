@@ -7,6 +7,9 @@ alias lsa='ls -la'
 #MongoDB
 alias mongod='mongod --dbpath=./data/db'
 
+# Gnome Terminal
+alias gt='dbus-launch gnome-terminal'
+
 # Git aliases
 alias g='git'
 alias gb='git branch'
