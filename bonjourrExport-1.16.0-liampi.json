@@ -3,7 +3,7 @@
     "browser": "chrome",
     "version": "1.16.2"
   },
-  "background_blur": 4,
+  "background_blur": 3,
   "background_bright": 0.73,
   "background_type": "custom",
   "clock": {
@@ -11,7 +11,6 @@
     "analog": false,
     "face": "none",
     "seconds": true,
-    "style": "round",
     "timezone": "auto"
   },
   "css": "",
@@ -34,33 +33,15 @@
       "400",
       "500",
       "600",
-      "700",
-      "100",
-      "200",
-      "300",
-      "400",
-      "500",
-      "600",
-      "700",
-      "100",
-      "200",
-      "300",
-      "400",
-      "500",
-      "600",
       "700"
     ],
     "family": "Roboto Mono",
     "size": "15.15",
-    "url": "https://fonts.googleapis.com/css?family=Roboto%20Mono:300",
+    "url": "https://fonts.googleapis.com/css?family=Roboto%20Mono:500",
     "weight": "400"
   },
   "greeting": "Abhinav",
-  "hide": {
-    "clock": false,
-    "date": false,
-    "settingsicon": false
-  },
+  "hide": {},
   "lang": "en",
   "linknewtab": false,
   "linksakqnbl": {
@@ -168,7 +149,7 @@
     "title": "Slack",
     "url": "https://app.slack.com/client/T19R6KUS0/D03L3MMTV4H"
   },
-  "linksrow": 8,
+  "linksrow": 9,
   "linksrrcqrg": {
     "_id": "linksrrcqrg",
     "icon": "https://abs.twimg.com/responsive-web/client-web-legacy/icon-ios.b1fc7279.png",
@@ -225,11 +206,6 @@
           ],
           [
             ".",
-            "searchbar",
-            "."
-          ],
-          [
-            ".",
             "quicklinks",
             "."
           ]
@@ -245,12 +221,12 @@
     "opacity": 0.1,
     "text": "### Double click to edit!  \n\n[ ] Supports Markdown and clickable checkboxes  \n[ ] With keyboard shortcuts, [see documentation](https://bonjourr.fr/docs/overview/#notes)"
   },
-  "pagewidth": 2200,
+  "pagewidth": 1600,
   "quicklinks": true,
   "quotes": {
     "author": false,
     "frequency": "day",
-    "last": 1681151976494,
+    "last": 1681151566771,
     "on": false,
     "type": "classic"
   },
@@ -258,8 +234,8 @@
   "searchbar": {
     "engine": "google",
     "newtab": false,
-    "on": true,
-    "opacity": 0.1,
+    "on": false,
+    "opacity": 0.22,
     "request": ""
   },
   "showall": true,
@@ -270,22 +246,19 @@
   "weather": {
     "ccode": "FR",
     "city": "Paris",
-    "fcHigh": 14,
+    "fcHigh": 38,
     "forecast": "auto",
+    "lastCall": 1681151992,
     "lastState": {
-      "description": "light rain",
-      "feels_like": 12.12,
-      "icon_id": 500,
-      "sunrise": 1681103424,
-      "sunset": 1681151592,
-      "temp": 12.42,
-      "temp_max": 14.32
+      "description": "clear sky",
+      "feels_like": 24.13,
+      "icon_id": 800,
+      "sunrise": 1681172974,
+      "sunset": 1681218776,
+      "temp": 25.19,
+      "temp_max": 25.19
     },
     "location": [
-      28.7472038,
-      77.2040727,
-      28.5868032,
-      77.4340608,
       28.5868032,
       77.4340608
     ],
