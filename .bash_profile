@@ -1,5 +1,6 @@
 # General aliases
 alias c='clear'
+alias cls='clear'
 alias e='exit'
 alias lll='ls -ltr'
 alias lsa='ls -la'
@@ -12,6 +13,7 @@ alias gt='dbus-launch gnome-terminal'
 
 # Git aliases
 alias g='git'
+alias gf="git fetch"
 alias gb='git branch'
 alias gs='git status'
 alias gl='git log --oneline'
