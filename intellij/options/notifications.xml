@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration" showBalloons="false">
+    <notification groupId="gittoolbox.fetch.info" />
+  </component>
+</application>

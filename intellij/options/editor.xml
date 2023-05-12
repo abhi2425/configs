@@ -1,0 +1,18 @@
+<application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
+    <option name="REMOVE_TRAILING_BLANK_LINES" value="true" />
+    <option name="TOOLTIPS_DELAY_MS" value="300" />
+    <option name="CARET_BLINKING_PERIOD" value="350" />
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="SHOW_BREADCRUMBS" value="false" />
+    <option name="IS_ANIMATED_SCROLLING" value="false" />
+  </component>
+  <component name="JSCodeFoldingSettings">
+    <option name="collapseOneLineFunctions" value="true" />
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="showCssInlineColorPreview" value="true" />
+  </component>
+</application>

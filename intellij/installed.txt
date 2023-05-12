@@ -1,0 +1,12 @@
+club.nutsoft.Github3Theme
+com.chrisrm.idea.MaterialThemeUI
+com.daniel-espinoza.inline-error
+com.github.copilot
+com.intellij.tailwindcss
+com.mallowigi
+intellij.prettierJS
+izhangzhihao.rainbow.brackets
+org.rust.lang
+ru.adelf.idea.dotenv
+ua.in.dej.myEmmet
+zielu.gittoolbox
