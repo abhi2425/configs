@@ -135,39 +135,40 @@ if (Test-CommandExists nvim) {
 }
 Set-Alias -Name vim -Value $EDITOR
 
-
 function ll { Get-ChildItem -Path $pwd -File }
-function g { Set-Location $HOME\Documents\Github }
+function g { 
+    git $args
+ }
 function gcom {
     git add .
     git commit -m "$args"
 }
 function gf {
-    git fetch
+    git fetch $args
 }
 
 function gpsh {
-    git push
+    git push $args
 }
 function gpl {
-    git pull
+    git pull $args
 }
 function gck {
-    git checkout
+    git checkout $args
 }
 function gb {
-    git branch
+    git branch $args
 }
 function gl {
     git log --oneline
 }
 
 function grs {
-    git reset
+    git reset $args
 }
 
 function grv {
-    git revert
+    git revert $args
 }
 
 function c {
